@@ -1,0 +1,211 @@
+.carousel-item {
+    height: 60vh; 
+    min-height: 300px;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+}
+
+/* Otros estilos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.perfil-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #343a40;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #495057;
+}
+
+
+section {
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 40px;
+}
+
+.project-item img {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+
+form .form-group {
+    margin-bottom: 15px;
+}
+
+article img {
+    transition: transform 0.3s ease-in-out;
+}
+
+article img:hover {
+    transform: scale(1.1);
+}
+
+/* assets/css/styles.css */
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #343a40;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.card-title:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.spinner-grow {
+    width: 2rem;
+    height: 2rem;
+}
+
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.carousel-caption h1 {
+    font-size: 1.5rem;
+}
+
+.carousel-caption h5 {
+    font-size: 1rem;
+}
+
+.carousel-caption p {
+    font-size: 0.6rem;
+}
+
+@media (min-width: 576px) {
+    .carousel-caption h1 {
+        font-size: 1rem;
+    }
+
+    .carousel-caption h5 {
+        font-size: 1rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .carousel-caption h1 {
+        font-size: 1.2rem;
+    }
+
+    .carousel-caption h5 {
+        font-size: 1.5rem;
+    }
+
+    .carousel-caption p {
+        font-size: 1.1rem;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .carousel-caption h1 {
+        font-size: 3.5rem;
+    }
+
+    .carousel-caption h5 {
+        font-size: 2rem;
+    }
+
+    .carousel-caption p {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .gallery-item {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .gallery-item {
+        width: 100%;
+    }
+}
+
+
+@keyframes click-zoom {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.4);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .click-zoom {
+    animation: click-zoom 0.5s ease-in-out;
+  }
+  
